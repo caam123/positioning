@@ -1,9 +1,39 @@
 main{
  margin:20px 80px;
+ width:600px;
+ margin:0 auto;
+}
+
+.wrapper{
+    max-width:600px;
+    margin:0 auto;
 }
 
 #fixed{
-    background-color:gray;
-    
+    background-color:#eee;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:30px;
+    text-align: center;
 }
+
+#relative{
+    background-color:#eee;
+    padding:30px;
+    text-align: center;
+    position:relative;
+    min-height:100px;
+}
+
+#absolute{
+    background-color:#999;
+    padding:30px;
+    text-align: center;
+    width:100px;
+    position:absolute;
+    bottom:0px;
+    right:-30px;
+}
+
 
